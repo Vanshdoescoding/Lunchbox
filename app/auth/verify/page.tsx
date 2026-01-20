@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { ChefHat, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 export default function VerifyPage() {
   return (
@@ -15,12 +15,12 @@ export default function VerifyPage() {
           </div>
           <CardTitle>Check Your Email</CardTitle>
           <CardDescription>
-            We've sent you a verification link. Please check your email and click the link to verify your account.
+            We&apos;ve sent you a verification link. Please check your email and click the link to verify your account.
           </CardDescription>
         </CardHeader>
         <CardContent className="text-center space-y-4">
           <p className="text-sm text-slate-600">
-            Didn't receive the email? Check your spam folder or contact support.
+            Didn&apos;t receive the email? Check your spam folder or contact support.
           </p>
           <Link href="/">
             <Button variant="outline" className="w-full">
